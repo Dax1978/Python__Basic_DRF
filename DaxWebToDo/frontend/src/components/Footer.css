@@ -1,0 +1,24 @@
+
+
+#footer {
+    background: rgb(49, 141, 7);
+    color: #fff;
+    font-size: 70%;
+    padding: 5px; clear : both;
+}
+
+#footer a {
+    color: #ff0;
+}
+#footer a:hover {
+    color: #f00;
+}
+
+#footer p {
+    padding: 2px;
+    text-align: center;
+}
+
+.clearfloat {
+    clear: both;
+}
