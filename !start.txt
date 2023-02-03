@@ -1,0 +1,12 @@
+source venv/bin/activate
+
+В VSC в низу, выбрать интерпретатор ./venv/bin/python
+
+Запускаем
+	тестовый сервер django на http://127.0.0.1:8000 	python mange.py runserver
+	тестовый front-end сервер на http://localhost:3000	npm run start
+	
+Переключиться на новый node.js:
+	nvm use v19.6.0
+Чтобы изменить версию Node.js по умолчанию, выполните следующую команду:
+	nvm alias default v19.6.0
