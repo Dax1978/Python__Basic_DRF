@@ -1,3 +1,0 @@
-source venv/bin/activate
-
-В VSC в низу, выбрать интерпретатор ./venv/bin/python
