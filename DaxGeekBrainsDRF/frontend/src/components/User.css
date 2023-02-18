@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
+
+table {
+    border: 1px solid #ccc;
+    border-spacing: 3px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+caption {
+    font-family: 'Rock Salt', cursive;
+    padding: 20px;
+    font-style: italic;
+    caption-side: top;
+    color: #666;
+    text-align: left;
+    letter-spacing: 1px;
+}
+
+td,
+th {
+    border: solid 1px #ccc;
+}
+
+.collapsed {
+    border-collapse: collapse;
+}
+
+.separated {
+    border-collapse: separate;
+}
+
+th {
+    font-family: 'Rock Salt', cursive;
+    padding: 20px;
+    font-style: italic;
+    caption-side: bottom;
+    color: rgb(214, 213, 213);
+    text-align: center;
+    letter-spacing: 1px;
+    background-color: #629e73;
+}
+
+tr:nth-child(odd) {
+    background-color: #acccb5;
+}
+
+tr:nth-child(even) {
+    background-color: #d3f1dc;
+}
