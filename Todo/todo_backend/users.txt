@@ -1,0 +1,5 @@
+root / root
+usr1 / usr1
+usr2 / usr2
+dev1 / dev1
+dev2 / dev2
